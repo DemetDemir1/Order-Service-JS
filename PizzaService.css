@@ -1,0 +1,30 @@
+* { font-size:100%; }
+h1 { font-size:170%; }
+
+/* Page CustomerOrder */
+#BlockMenu { float:left; }
+#BlockShoppingCart { display:inline-block; margin-left:5em; }
+
+/* Block ShoppingCart */
+form p { width:100%; text-align:center; }
+select, input.Address { width:100%; }
+p.TotalPrice { text-align:right; }
+
+/* Block StatusCustomer */
+#BlockStatusCustomer table.unbordered { border: 0px; }
+#BlockStatusCustomer table tr th { padding-left:1em; padding-right:1em; }
+#BlockStatusCustomer table tr td { text-align:center; }
+#BlockStatusCustomer table tr td.col0 { text-align:left; }
+
+/* Block StatusBaker */
+#BlockStatusBaker table.unbordered { border: 0px; }
+#BlockStatusBaker table tr th { padding-left:1em; padding-right:1em; }
+#BlockStatusBaker table tr td { text-align:center; }
+#BlockStatusBaker table tr td.col0 { text-align:left; }
+
+/* Block StatusDriver */
+table.unbordered { border: 0px; }
+table tr th { padding-left:1em; padding-right:1em; }
+table tr td { text-align:center; }
+table tr td.col0 { text-align:center; }
+.ListElement { margin-top:2em; }
